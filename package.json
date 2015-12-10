@@ -6,7 +6,8 @@
   "version": "0.1.0",
   "scripts": {
     "install": "npm i && jspm i",
-      "start": "./node_modules/.bin/babel-node --presets es2015 ./bin/www"
+    "start": "babel-node ./server.js",
+    "update-schema": "babel-node ./scripts/updateSchema.js"
   },
   "dependencies": {
     "babel": "5.8.21",
